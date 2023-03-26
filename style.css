@@ -222,6 +222,7 @@
     color: white;
     border-radius: 10px;
     width:100%;
+    overflow-x:hidden;
     display:none;
   }
   .mobile-container img{
