@@ -24,7 +24,7 @@
     -ms-overflow-style: none; /* cho  Internet Explorer, Edge */
     scrollbar-width: none; /* cho Firefox */
     overflow-y: scroll; 
-    overflow-x: hidden;
+    overflow-x: hidden !important ;
   }
   html{
     scroll-behavior: smooth;
@@ -136,7 +136,7 @@
   @media screen and (max-width:600px){
     .container-header{
         font-size: x-small;
-        height: 50px !important;;
+        height: 50px !important;
     }
     .container-header a{
       display:none;
@@ -220,7 +220,6 @@
     margin: 0;
     background-color: orangered;
     color: white;
-    border-radius: 10px;
     width:100%;
     overflow-x:hidden;
     display:none;
